@@ -1,0 +1,71 @@
+.toTop-arrow{
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after{
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after{
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;} 
+*{
+  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'Arial', cursive;
+} 
+/* .navbar-nav{
+  margin-left:300px;
+} */
+.container{
+  padding-top: 80px;
+}
+.carousel{
+  padding-top: 65px;
+}
+.col-sm-6 a{
+  color:blue;
+}
+.col-sm-6 p{
+  color:black;
+}
+.col-sm-6 a:hover{
+  text-decoration:none;
+  color: red;
+}
+section{
+  padding-top:100px;
+}
+.nav-item a{
+ font-family:bolder; 
+}
+.yellow{
+  color: #ff9000;
+}
+.blue{
+  color: #0000ff;
+}
+.text a:hover{
+   text-decoration:none;
+   color: red;
+}
